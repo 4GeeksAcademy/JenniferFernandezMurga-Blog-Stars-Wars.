@@ -1,0 +1,14 @@
+.vista{
+    overflow-x: auto;
+    white-space: nowrap;
+    }
+/* 
+.cards{
+    width:18rem;
+
+    } */
+
+h1{
+    flex-direction: row;
+    
+}
