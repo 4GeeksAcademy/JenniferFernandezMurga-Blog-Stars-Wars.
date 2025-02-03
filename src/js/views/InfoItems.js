@@ -15,7 +15,7 @@ const [infoDetails,setInfoDetails] = useState ([]);
 const {id,category} = useParams ();
  
 
-const getInfoDetails = async ()=>{
+const getInfoDetails = async () => {
 						const requestOptions = {
 						  method: "GET",
 						  redirect: "follow"
@@ -32,9 +32,9 @@ const getInfoDetails = async ()=>{
 						}
 
 
-useEffect(()=>{
-  getInfoDetails()
-  },[])
+// useEffect(()=>{
+//   getInfoDetails()
+//   },[])
 
 
 return (

@@ -10,8 +10,8 @@ export const Home = () => {
 
 	const { store, actions } = useContext(Context); 
 
-	const [infoDetails, setInfoDetails] = useState();
-  const {id,category} = useParams ();
+	// const [infoDetails, setInfoDetails] = useState();
+  // const {id,category} = useParams ();
 
 
 	useEffect(()=>{
@@ -66,7 +66,7 @@ export const Home = () => {
                           <Card
                           name={vehicle.name} 
                           category={vehicle} 
-                          data={setInfoDetails}
+                          // data={setInfoDetails}
                           id={vehicle.id} 
                           key={index}/>
                       

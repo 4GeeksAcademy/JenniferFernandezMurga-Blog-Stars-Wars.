@@ -31,8 +31,8 @@ const { store, actions } = useContext(Context);
         />  */}
 
   <div className="card-body">
-    <h5 className="card-title">{data.name}</h5>
-    <p className="card-title">{data.description}</p>
+    <h5 className="card-title">{name}</h5>
+    {/* <p className="card-title">{desc}</p> */}
     <Link className="btn btn-primary" to={category==="characters" ? "/people/" + id : `/${category}/${id}`}>Learn More!</Link> 
     
     {/* <button className="favorite" onClick={addFavorite}>
